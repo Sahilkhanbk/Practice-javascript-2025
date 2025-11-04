@@ -15,7 +15,6 @@ let hexMode = document.getElementById("hexMode");
 
 
 
-
 let mode = "rgb"; // default mode
 
 function randomRgb() {
@@ -58,4 +57,5 @@ hexMode.addEventListener("click", () => {
   hexMode.classList.add("active");
   rgbMode.classList.remove("active");
 });
+
 
